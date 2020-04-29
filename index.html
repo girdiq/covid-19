@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid-19</title>
+    <script src="https://kit.fontawesome.com/229565ecaf.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <img src="img/logo.png" alt="Logo del coronavirus" class="logo">
+            <h3 class="title">Covid-19</h3>
+            <p class="text">La pandemia que ataca al mundo en la actualidad</p>
+        </div>
+    </header>
+
+    <section class="services text-center">
+        <h3 class="title">Sintomas</h3>
+        <div class="container grid-4">
+            <div>
+                <i class="fas fa-head-side-cough fa-4x"></i>
+                <h3>Tos seca</h3>
+            </div>
+            <div>
+                <i class="fas fa-tired fa-4x"></i>
+                <h3>Dolor de garganta</h3>
+            </div>
+            <div>
+                <i class="fas fa-thermometer-full fa-4x"></i>
+                <h3>Fiebre</h3>
+            </div>
+            <div>
+                <i class="fas fa-lungs-virus fa-4x"></i>
+                <h3>Dificultad para respirar</h3>
+                <p>solo en casos graves</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="bg-light">
+        <div class="container text-center">
+            <h3 class="title" style="text-align: justify;">¿Qué herramientas informáticas utilizarías para ayudar a determinar posibles sitios de 
+                contagio masivo?</h3>
+            <p style="text-align: justify;">Una aplicación móvil con la API de google maps para determinar las zonas con más riesgo debido a la 
+                concurrencia de cada área 
+            </p>
+        </div>
+            
+    </section>
+
+    <section >
+        <div class="container text-center">
+            <h3 class="title" style="text-align: justify;">¿Cómo estructurarías una base de datos para el seguimiento de pacientes sospechosos de contagio por COVID-19?</h3>
+                    <p style="text-align: justify;">La base de datos contendrá los datos generales de la persona: Nombre, edad, sexo etc. 
+                        Además tendria su domicilio y los lugares por donde suele transitar y por último la fecha en la que empezó a 
+                        presentar los síntomas
+                    </p>
+        </div>            
+    </section>
+
+    <section class="bg-light">
+        <div class="container text-center">
+            <h3 class="title" style="text-align: justify;">¿De qué manera pudieras hacer accesible y editable la base de datos propuesta en la actividad anterior,
+                desde teléfonos móviles por parte del personal de salud que atiende a la población?</h3>
+           <p style="text-align: justify;">Mediante una aplicación que le permita a todo el personal capacitado agregar nuevos casos 
+               sospechosos con ayuda de un CRUD utilizando un web service con la API de REST y json
+           </p>
+        </div>
+    </section>
+
+     <section >
+        <div class="container text-center">
+            <h3 class="title" style="text-align: justify;">¿Qué herramientas tecnológicas utilizarías para detectar posibles portadores del virus en una estación del Metro?</h3>
+            <p style="text-align: justify;">Termómetros infrarrojos que permitan tomar la temperatura de las personas rápidamente y si es que presentan fiebre 
+                pasarlas a un test completo para conocer si es que son portadores del virus
+            </p>
+        </div>
+    </section>
+
+     <section class="bg-light">
+        <div class="container text-center">
+            <h3 class="title" style="text-align: justify;">¿Qué dispositivos emplearías para que los responsables de filtros sanitarios reciban información 
+                útil en tiempo real para dar seguimiento y atención a los posibles casos de riesgo de contagio, 
+                desde las herramientas que propusiste en la primera pregunta y cómo harías que se comunicaran? </h3>
+            <p style="text-align: justify;">Usaría una herramienta hecha con Arduino que se conectara al termómetro y al mismo tiempo a un dispositivo móvil 
+                para que a la hora que el termómetro tome la temperatura esta se comunique con el arduino y este a su vez con el 
+                móvil y así desde el celular capturar la información a la base de datos para que todos tengan acceso de inmediato
+            </p>
+        </div>
+    </section>
+
+     <section >
+        <div class="container text-center">
+            <h3 class="title" style="text-align: justify;">¿Qué elementos debe tener una interfaz gráfica de una app, para que al personal de filtros sanitarios le proporcione
+                información útil sobre posibles personas infectadas por el COVID-19, y que información desplegaría cada uno de los elementos?</h3>
+           <p style="text-align: justify;">La interfaz debe contar con un menú desplegable donde contenga los siguientes apartados:</p>
+           <p style="text-align: justify;">1. Apartado de áreas propensas a ocasionar contagios: En este apartado mostrará las áreas más concurridas en tiempo real
+           </p>
+           <p style="text-align: justify;">2. Apartado de sospechoso según su temperatura: Aqui se mostrara las personas que podrían ser portadoras del virus según la medida de temperatura que les fue tomada, además mostrará su es que ya se les ha hecho el test completo y de ser así la hora exacta en la que se le realizó
+           </p>
+           <p style="text-align: justify;">3. Apartado de personas contagiadas: Se mostrará los datos de las personas que se les detectó el virus
+           </p>
+           <p style="text-align: justify;">4. Apartado de Ingresar un nuevo caso confirmado: Se despliega un formulario para ingresar los datos de la persona infectada
+           </p>
+        </div>
+    </section>
+
+    <footer class="footer text-center  bg-light">
+        <p>Josep Alan Piero Rodriguez Alonso &copy; 2020 Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>
